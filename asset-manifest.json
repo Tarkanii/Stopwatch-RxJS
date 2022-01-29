@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Stopwatch-RxJS/static/css/main.cf96b91e.css",
+    "main.js": "/Stopwatch-RxJS/static/js/main.5c8c4ceb.js",
+    "index.html": "/Stopwatch-RxJS/index.html",
+    "main.cf96b91e.css.map": "/Stopwatch-RxJS/static/css/main.cf96b91e.css.map",
+    "main.5c8c4ceb.js.map": "/Stopwatch-RxJS/static/js/main.5c8c4ceb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cf96b91e.css",
+    "static/js/main.5c8c4ceb.js"
+  ]
+}
