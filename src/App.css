@@ -1,0 +1,58 @@
+.App {
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translate(50%, -50%);
+  font-family: "Dongle", sans-serif;
+}
+.stopwatch-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.stopwatch {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px;
+}
+.stopwatch > li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 70px;
+  font-size: 100px;
+  line-height: 1;
+}
+.stopwatch > li:not(:last-child) {
+  margin-right: 10px;
+}
+.title {
+  font-size: 25px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+}
+.buttons > li:not(:last-child) {
+  margin-right: 10px;
+}
+.buttons button {
+  font-family: "Dongle", sans-serif;
+  border: none;
+  border-radius: 10px;
+  background: transparent;
+  font-size: 30px;
+  cursor: pointer;
+  padding: 0 10px;
+}
+.buttons button:hover {
+  transition: background-color 250ms linear;
+  color: white;
+  background-color: black;
+}
